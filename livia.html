@@ -86,6 +86,11 @@
                     score = 0;
                 }
             }
+            if(score > 10){
+                ctx.font = "30px Arial";
+                ctx.fillStyle = "black";
+                ctx.fillText("Ich liebe dich Livia ❤", 50, 150); 
+            }
         }
         snake.push({X: positionX, Y: positionY});
         while(snake.length > tam){
